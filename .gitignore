@@ -1,0 +1,52 @@
+# Large MD trajectory files
+*.xtc
+*.trr
+*.tpr
+*.edr
+*.cpt
+
+# Structure files (large)
+*.gro
+
+# Log files
+*.log
+*.stdout
+*.stderr
+
+# Temporary files
+temp_*/
+tmp/
+*.tmp
+*.bak
+
+# Node dependencies
+node_modules/
+
+# Manuscript output (not for repo)
+*.docx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data directories
+md_simulations/
+md_analysis_results/charts_v*/
+md_analysis_results/xvg_all/
+rmsd_*/
+8.11/
+20x3/
+MG*/
+gp120_*/
+reqaired/
+attachment_images/
+reference_images/
+reference_papers_JBSD/
+TOP4_核心参考/
+.trae-html-share-packages/
+.uploads/
